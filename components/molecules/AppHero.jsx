@@ -12,7 +12,7 @@ const AppHero = () => (
             <span>Hi, I&apos;m</span>
             <span className="block w-6 lg:w-11 h-1 bg-orange ml-2 rounded-lg" />
           </span>
-          <h1 className="text-5xl lg:text-8xl font-bold text-black">
+          <h1 className="text-5xl lg:text-7xl font-bold text-black">
             {DATA.name}
           </h1>
           <h2 className="text-xl lg:text-4xl font-bold text-orange mt-2">

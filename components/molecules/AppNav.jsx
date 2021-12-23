@@ -7,6 +7,7 @@ import AppToggle from '../atomics/AppToggle';
 
 const AppNav = () => {
   const [isActiveNav, setIsActiveNav] = useState(false);
+  const [profile, setProfile] = useState({});
   const [isActiveToggler, setIsActiveToggler] = useState(false);
   const { pathname } = useRouter();
 
@@ -17,7 +18,7 @@ const AppNav = () => {
         : 'bg-light-gray bg-opacity-30 hover:text-orange';
     return className;
   };
-
+  
   const handleWindowScroll = () => {
     const pageScrollPosition = window.pageYOffset;
     const targetPosition = 20;
@@ -33,15 +34,31 @@ const AppNav = () => {
     setIsActiveToggler((prev) => !prev);
     event.stopPropagation();
   };
-
+  function theme() {
+    if (localStorage.getItem('theme') === null) {
+      document.body.classList.add('dark');
+      localStorage.setItem('theme', 'dark');
+    } else {
+      document.body.classList.remove('dark');
+      localStorage.removeItem('theme');
+    }
+  }
   useEffect(() => {
     window.addEventListener('scroll', handleWindowScroll);
+    if (localStorage.getItem('theme') !== null) {
+      document.body.classList.add(localStorage.getItem('theme'));
+    } else {
+      if (profile.theme === 'dark') {
+        document.body.classList.add('dark');
+        localStorage.setItem('theme', 'dark');
+      }
+    }
 
     return () => {
       window.removeEventListener('scroll', handleWindowScroll);
     };
   }, []);
-
+  
   return (
     <nav
       className={`flex items-center justify-between fixed top-0 z-40 w-full max-w-[1905px] transform right-1/2 translate-x-1/2 md:px-10 2xl:px-20 md:py-3 transition duration-500 ${
@@ -89,6 +106,12 @@ const AppNav = () => {
             </Link>
           </li>
         ))}
+        <li>
+          <a className='theme' onClick={(e) => theme()}>
+            <i className='fas fa-adjust'>Dark</i>
+          </a>
+        </li>
+        
       </ul>
 
       <div

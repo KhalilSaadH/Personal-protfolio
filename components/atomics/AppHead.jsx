@@ -32,7 +32,7 @@ AppHead.propTypes = {
 };
 
 AppHead.defaultProps = {
-  title: 'Edwin Tantawi',
+  title: 'Khalil Saad HAROURI',
   description:
     'I am a student from Indonesia, who focuses on web development, especially frontend web development.',
   keyword: '',

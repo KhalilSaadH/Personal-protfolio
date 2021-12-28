@@ -5,8 +5,17 @@ import AppSection from '../components/molecules/AppSection';
 import AppProject from '../components/atomics/AppProject';
 import AppShell from '../components/templates/AppShell';
 
+import { ThemeProvider } from '../components/templates/ThemeContext';
+import Background from '../components/templates/Background';
+//import Toggle from '../components/templates/ThemeToggle';
+
 const Home = () => (
   <div>
+    <ThemeProvider>
+      <Background>
+      {/* <div className="absolute right-0 top-0 mr-4 mt-4 md:mr-6 md:mt-6">
+            <Toggle />
+       </div> */}
     <AppShell hero>
       <AppSection title="What can I do">
         <div className="grid grid-cols-1 gap-3 md:grid-cols-2 xl:grid-cols-3 lg:gap-4">
@@ -68,6 +77,8 @@ const Home = () => (
         </div>
       </AppSection>
     </AppShell>
+    </Background>
+    </ThemeProvider>
   </div>
 );
 

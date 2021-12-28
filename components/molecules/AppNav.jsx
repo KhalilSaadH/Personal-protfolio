@@ -5,6 +5,8 @@ import Image from 'next/image';
 import USER from '../../data/user.json';
 import AppToggle from '../atomics/AppToggle';
 
+import Toggle from '../templates/ThemeToggle';
+
 const AppNav = () => {
   const [isActiveNav, setIsActiveNav] = useState(false);
   const [profile, setProfile] = useState({});
@@ -15,7 +17,7 @@ const AppNav = () => {
     const className =
       url === pathname
         ? 'font-bold text-white hover:text-white lg:hover:text-orange lg:text-orange bg-orange '
-        : 'bg-light-gray bg-opacity-30 hover:text-orange';
+        : 'dark:text-white bg-light-gray bg-opacity-30 hover:text-orange';
     return className;
   };
   
@@ -44,15 +46,15 @@ const AppNav = () => {
     }
   }
   useEffect(() => {
-    window.addEventListener('scroll', handleWindowScroll);
-    if (localStorage.getItem('theme') !== null) {
-      document.body.classList.add(localStorage.getItem('theme'));
-    } else {
-      if (profile.theme === 'dark') {
-        document.body.classList.add('dark');
-        localStorage.setItem('theme', 'dark');
-      }
-    }
+    // window.addEventListener('scroll', handleWindowScroll);
+    // if (localStorage.getItem('theme') !== null) {
+    //   document.body.classList.add(localStorage.getItem('theme'));
+    // } else {
+    //   if (profile.theme === 'dark') {
+    //     document.body.classList.add('dark');
+    //     localStorage.setItem('theme', 'dark');
+    //   }
+    // }
 
     return () => {
       window.removeEventListener('scroll', handleWindowScroll);
@@ -106,12 +108,14 @@ const AppNav = () => {
             </Link>
           </li>
         ))}
-        <li>
+        {/* <li>
           <a className='theme' onClick={(e) => theme()}>
-            <i className='fas fa-adjust'>Dark</i>
+              <i className='fas fa-adjust'>Dark</i>
           </a>
-        </li>
-        
+        </li> */}
+        <li className="absolute right-0 top-0 mr-4 mt-4 md:mr-6 md:mt-6">
+            <Toggle />
+       </li>
       </ul>
 
       <div

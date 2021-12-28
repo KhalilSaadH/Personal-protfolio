@@ -16,7 +16,7 @@ const AppSection = ({ title, children, decoration, noSeparator }) => {
 
   return (
     <section
-      className={`py-10 lg:py-16 px-3 ${
+      className={`dark:text-white py-10 lg:py-16 px-3 ${
         noSeparator || 'border-b border-light-gray border-opacity-50'
       }`}
     >

@@ -4,7 +4,12 @@ import AppShell from '../components/templates/AppShell';
 import AppSection from '../components/molecules/AppSection';
 import AppProject from '../components/atomics/AppProject';
 
+import { ThemeProvider } from '../components/templates/ThemeContext';
+import Background from '../components/templates/Background';
+
 const Project = () => (
+  <ThemeProvider>
+   <Background>
     <AppShell
       title={`Khalil Saad HAROURI | ${USER.project.title}`}
       description={USER.project.desctiption}
@@ -22,6 +27,8 @@ const Project = () => (
         </div>
       </AppSection>
     </AppShell>
+  </Background>
+</ThemeProvider>
   );
 
 export default Project;

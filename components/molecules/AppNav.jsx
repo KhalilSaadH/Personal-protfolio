@@ -113,7 +113,7 @@ const AppNav = () => {
               <i className='fas fa-adjust'>Dark</i>
           </a>
         </li> */}
-        <li className="absolute right-0 top-0 mr-4 mt-4 md:mr-6 md:mt-6">
+        <li className="text-sm text-center transition block py-3 lg:py-0 rounded-lg lg:bg-transparent tracking-widest">
             <Toggle />
        </li>
       </ul>

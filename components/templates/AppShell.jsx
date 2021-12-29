@@ -9,6 +9,7 @@ import AppCtaSection from '../molecules/AppCtaSection';
 import AppHero from '../molecules/AppHero';
 import AppFooter from '../atomics/AppFooter';
 
+
 const AppShell = ({ title, keyword, description, hero, cta, children }) => (
   <>
     <AppHead title={title} description={description} keyword={keyword} />

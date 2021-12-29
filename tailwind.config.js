@@ -13,6 +13,7 @@ module.exports = {
       black: '#181818',
       orange: '#008970',
       white: '#FFFFFF',
+      yellow: 'hsl(61, 100%, 67%)',
       transparent: 'transparent',
     },
     extend: {

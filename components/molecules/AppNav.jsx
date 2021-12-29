@@ -1,3 +1,4 @@
+import React from 'react';
 import Link from 'next/link';
 import { useRouter } from 'next/router';
 import { useEffect, useState } from 'react';
@@ -6,6 +7,8 @@ import USER from '../../data/user.json';
 import AppToggle from '../atomics/AppToggle';
 
 import Toggle from '../templates/ThemeToggle';
+
+
 
 const AppNav = () => {
   const [isActiveNav, setIsActiveNav] = useState(false);
@@ -36,15 +39,15 @@ const AppNav = () => {
     setIsActiveToggler((prev) => !prev);
     event.stopPropagation();
   };
-  function theme() {
-    if (localStorage.getItem('theme') === null) {
-      document.body.classList.add('dark');
-      localStorage.setItem('theme', 'dark');
-    } else {
-      document.body.classList.remove('dark');
-      localStorage.removeItem('theme');
-    }
-  }
+  // function theme() {
+  //   if (localStorage.getItem('theme') === null) {
+  //     document.body.classList.add('dark');
+  //     localStorage.setItem('theme', 'dark');
+  //   } else {
+  //     document.body.classList.remove('dark');
+  //     localStorage.removeItem('theme');
+  //   }
+  // }
   useEffect(() => {
     // window.addEventListener('scroll', handleWindowScroll);
     // if (localStorage.getItem('theme') !== null) {
@@ -62,6 +65,7 @@ const AppNav = () => {
   }, []);
   
   return (
+    
     <nav
       className={`flex items-center justify-between fixed top-0 z-40 w-full max-w-[1905px] transform right-1/2 translate-x-1/2 md:px-10 2xl:px-20 md:py-3 transition duration-500 ${
         isActiveNav && 'bg-white'
@@ -88,7 +92,7 @@ const AppNav = () => {
 
       <ul
         className={`flex transform transition duration-500 absolute lg:static 
-         bg-white lg:bg-transparent left-3 right-3 border lg:border-none border-light-gray p-8 lg:p-0 space-y-4 lg:space-y-0 flex-col lg:flex-row space-x-0 lg:space-x-14 rounded-xl z-10
+         dark:bg-black bg-white lg:bg-transparent left-3 right-3 border lg:border-none border-light-gray p-8 lg:p-0 space-y-4 lg:space-y-0 flex-col lg:flex-row space-x-0 lg:space-x-14 rounded-xl z-10
         ${
           isActiveToggler
             ? 'translate-y-[250px]'
@@ -113,7 +117,7 @@ const AppNav = () => {
               <i className='fas fa-adjust'>Dark</i>
           </a>
         </li> */}
-        <li className="text-sm text-center transition block py-3 lg:py-0 rounded-lg lg:bg-transparent tracking-widest">
+        <li className="dark:text-yellow text-sm text-center transition block py-3 lg:py-0 rounded-lg lg:bg-transparent tracking-widest">
             <Toggle />
        </li>
       </ul>
@@ -126,6 +130,7 @@ const AppNav = () => {
         }`}
       />
     </nav>
+
   );
 };
 

@@ -32,7 +32,7 @@ const Contact = () => (
                 <div className="w-12 h-12 rounded-full border border-orange grid place-items-center">
                   <i className={`${item.icon} text-xl`} />
                 </div>
-                <h3 className="text-black font-semibold mt-3">{item.name}</h3>
+                <h3 className="dark:text-white text-black font-semibold mt-3">{item.name}</h3>
                 <p className="text-gray text-xs md:text-sm">{item.username}</p>
               </a>
             ))}

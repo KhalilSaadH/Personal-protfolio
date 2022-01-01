@@ -10,19 +10,28 @@ import AppHero from '../molecules/AppHero';
 import AppFooter from '../atomics/AppFooter';
 
 
+import { ThemeProvider } from './ThemeContext';
+import Background from './Background';
+
+
+
 const AppShell = ({ title, keyword, description, hero, cta, children }) => (
   <>
-    <AppHead title={title} description={description} keyword={keyword} />
-    <AppNav />
-    <AppDecoration />
-    <AppSide />
-    {hero && <AppHero />}
-    <AppContainer>
-      {children}
-      <AppSignature />
-      {cta && <AppCtaSection />}
-      <AppFooter />
-    </AppContainer>
+  <ThemeProvider>
+    <Background>
+      <AppHead title={title} description={description} keyword={keyword} />
+      <AppNav />
+      <AppDecoration />
+      <AppSide />
+      {hero && <AppHero />}
+      <AppContainer>
+        {children}
+        <AppSignature />
+        {cta && <AppCtaSection />}
+        <AppFooter />
+      </AppContainer>
+    </Background>
+  </ThemeProvider>
   </>
 );
 

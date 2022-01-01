@@ -6,6 +6,8 @@ import Image from 'next/image';
 import USER from '../../data/user.json';
 import AppToggle from '../atomics/AppToggle';
 
+import { FaSun, FaMoon}   from "react-icons/fa";
+import { ThemeContext } from '../templates/ThemeContext';
 import Toggle from '../templates/ThemeToggle';
 
 
@@ -15,6 +17,10 @@ const AppNav = () => {
   const [profile, setProfile] = useState({});
   const [isActiveToggler, setIsActiveToggler] = useState(false);
   const { pathname } = useRouter();
+  const { theme, setTheme } = React.useContext(ThemeContext);
+  
+  
+
 
   const activeLink = (url) => {
     const className =
@@ -49,13 +55,14 @@ const AppNav = () => {
   //   }
   // }
   useEffect(() => {
+   
     // window.addEventListener('scroll', handleWindowScroll);
-    // if (localStorage.getItem('theme') !== null) {
-    //   document.body.classList.add(localStorage.getItem('theme'));
+    // if (localStorage.getItem('color-theme') !== null) {
+    //   document.body.classList.add(localStorage.getItem('color-theme'));
     // } else {
     //   if (profile.theme === 'dark') {
     //     document.body.classList.add('dark');
-    //     localStorage.setItem('theme', 'dark');
+    //     localStorage.setItem('color-theme', 'dark');
     //   }
     // }
 
@@ -117,8 +124,21 @@ const AppNav = () => {
               <i className='fas fa-adjust'>Dark</i>
           </a>
         </li> */}
-        <li className="dark:text-yellow text-sm text-center transition block py-3 lg:py-0 rounded-lg lg:bg-transparent tracking-widest">
-            <Toggle />
+        <li key="modeIcon" className="dark:text-yellow text-sm text-center transition block py-3 lg:py-0 rounded-lg lg:bg-transparent tracking-widest">
+            {/* <Toggle /> */}
+           { console.log('toggle ',theme)}
+            { (theme === 'dark') ? (
+                <FaSun
+                    onClick={() => setTheme('light')}
+                    className="  dark:text-yellow text-gray-500 dark:text-gray-400 text-2xl cursor-pointer"
+                />
+            ) : (
+                    <FaSun
+                        onClick={() => setTheme('dark')}
+                        className="text-gray-500 dark:text-gray-400 text-2xl cursor-pointer"
+                    />
+                )
+            }
        </li>
       </ul>
 

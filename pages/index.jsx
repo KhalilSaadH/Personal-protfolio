@@ -5,14 +5,13 @@ import AppSection from '../components/molecules/AppSection';
 import AppProject from '../components/atomics/AppProject';
 import AppShell from '../components/templates/AppShell';
 
-import { ThemeProvider } from '../components/templates/ThemeContext';
-import Background from '../components/templates/Background';
+// import { ThemeProvider } from '../components/templates/ThemeContext';
+// import Background from '../components/templates/Background';
 //import Toggle from '../components/templates/ThemeToggle';
 
 const Home = () => (
   <div>
-    <ThemeProvider>
-      <Background>
+    
       
         <AppShell hero>
           <AppSection title="What can I do">
@@ -75,8 +74,7 @@ const Home = () => (
             </div>
           </AppSection>
         </AppShell>
-     </Background>
-    </ThemeProvider>
+   
   </div>
 );
 

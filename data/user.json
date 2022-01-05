@@ -1,7 +1,7 @@
 {
   "name": "Khalil Saad HAROURI",
   "status": "Ingénieur d'Etudes et Développement Full Stack",
-  "description": "I am a student from Indonesia, who focuses on web development, especially frontend web development.",
+  "description": "intéressé essentiellement par le développement Web et Mobile. j’apprécie découvrir et maîtriser des nouvelles technologies afin de trouver et d'implémenter des solutions innovantes.",
   "navigations": [
     {
       "id": 1,
@@ -21,7 +21,7 @@
     {
       "id": 4,
       "name": "Articles",
-      "url": "https://edwintantawi.medium.com/"
+      "url": "#"
     },
     {
       "id": 5,
@@ -135,8 +135,8 @@
     }
   ],
   "project": {
-    "title": "Project",
-    "desctiption": "some of the projects that I've worked on to completion with some of the technologies",
+    "title": "Projets",
+    "desctiption": "certains des projets sur lesquels j'ai travaillé jusqu'à leur achèvement",
     "contents": [
       {
         "id": 1,
@@ -223,7 +223,7 @@
   },
   "contact": {
     "title": "Contact",
-    "description": "Chat with me through some of the contacts you can call to get acquainted.",
+    "description": "N'hésitez pas à me contacter sur l'un des moyens de communication suivants",
     "contents": [
       {
         "id": 1,
@@ -292,8 +292,8 @@
     ]
   },
   "about": {
-    "title": "About",
-    "description": "Get acquainted further about me, story and biography of my life",
+    "title": "A propos",
+    "description": "Apprenez-en davantage sur moi",
     "contents": [
       {
         "id": 1,
@@ -318,12 +318,12 @@
     ]
   },
   "resume": {
-    "title": "Resume",
-    "description": "explore my experiences, rewards, and education, as well as my activeness",
+    "title": "Curriculum Vitae",
+    "description": "Explorez mes expériences, mes connaissances professionnelle et mon parcours académique",
     "contents": [
       {
         "id": 1,
-        "title": "Work Experience",
+        "title": "Expériences professionnelles",
         "contents": [
           {
             "id": 1,
@@ -337,7 +337,7 @@
       },
       {
         "id": 2,
-        "title": "Courses I Completed",
+        "title": "Projets d'autoformation",
         "contents": [
           {
             "id": 5,
@@ -453,7 +453,7 @@
       },
       {
         "id": 3,
-        "title": "Educational Level",
+        "title": "Parcours académique",
         "contents": [
           {
             "id": 1,

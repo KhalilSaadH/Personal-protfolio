@@ -16,7 +16,7 @@ const AppHeader = ({ title, description }) => {
   };
   return (
     <AppSection decoration={false} noSeparator>
-      <div className="mt-10 lg:mt-20 bg-light-gray p-7 lg:p-10 bg-opacity-30 rounded-lg lg:rounded-2xl text-center">
+      <div className="mt-10 lg:mt-20 dark:bg-gray-light bg-light-gray p-7 lg:p-10 bg-opacity-30 rounded-lg lg:rounded-2xl text-center">
         {splitTitleCharColor()}
         <p className="text-xs lg:text-sm text-gray max-w-sm tracking-widest mt-3 lg:mt-5 mx-auto">
           {description}

@@ -3,7 +3,7 @@ import React from 'react';
 const getInitialTheme = () => {
     if (typeof window !== 'undefined' && window.localStorage) {
         const storedPrefs = window.localStorage.getItem('color-theme');
-        console.log('refs ',storedPrefs)
+        //console.log('refs ',storedPrefs)
         if (typeof storedPrefs === 'string') {
             if (storedPrefs === 'dark') {
                 return 'light';
@@ -42,7 +42,7 @@ export const ThemeProvider = ({ initialTheme, children }) => {
         const root = window.document.documentElement;
         //const isDark;
          const isDark = rawTheme === initialTheme;
-         console.log('in ',initialTheme);
+         //console.log('in ',initialTheme);
         
         root.classList.remove(isDark ? 'light' : 'dark');
         root.classList.add(rawTheme);
@@ -60,7 +60,7 @@ export const ThemeProvider = ({ initialTheme, children }) => {
 
     React.useEffect(() => {
         rawSetTheme(theme);
-        console.log(theme);
+        //console.log(theme);
         
     }, [theme]);
 

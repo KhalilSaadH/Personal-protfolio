@@ -12,16 +12,16 @@ const AppHero = () => (
             <span>Hi, I&apos;m</span>
             <span className="block w-6 lg:w-11 h-1 bg-orange ml-2 rounded-lg" />
           </span>
-          <h1 className="dark:text-white text-5xl lg:text-7xl font-bold text-black">
+          <h1 className="dark:text-white text-5xl lg:text-5xl font-bold text-black">
             {DATA.name}
           </h1>
-          <h2 className="text-xl lg:text-4xl font-bold text-orange mt-2">
+          <h2 className="text-xl lg:text-3xl font-bold text-orange mt-2">
             [{DATA.status}]
           </h2>
-          <p className="text-xs lg:text-base text-gray max-w-md tracking-widest mt-2 lg:mt-3 md:ml-1">
+          <p className="text-xs lg:text-base text-gray max-w-xl tracking-widest mt-2 lg:mt-4 md:ml-1">
             {DATA.description}
           </p>
-          <AppButton title="GET IN TOUCH" href="/contact" />
+          <AppButton title="A propos" href="/contact" />
         </div>
       </Fade>
     </AppContainer>

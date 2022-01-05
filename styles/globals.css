@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 .decoration::after {
-  /* color: hsl(61, 100%, 67%);
+  /* color: #26c2a5d2;
   gray: '#cacacabe',
       'light-gray': '#e0dede',
   content: ''; */

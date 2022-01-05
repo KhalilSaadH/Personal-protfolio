@@ -26,7 +26,7 @@ const AppShell = ({ title, keyword, description, hero, cta, children }) => (
       {hero && <AppHero />}
       <AppContainer>
         {children}
-        <AppSignature />
+        {/* <AppSignature /> */}
         {cta && <AppCtaSection />}
         <AppFooter />
       </AppContainer>

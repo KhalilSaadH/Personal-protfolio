@@ -8,7 +8,7 @@ import AppToggle from '../atomics/AppToggle';
 
 import { FaSun, FaMoon}   from "react-icons/fa";
 import { ThemeContext } from '../templates/ThemeContext';
-import Toggle from '../templates/ThemeToggle';
+//import Toggle from '../templates/ThemeToggle';
 
 
 
@@ -99,7 +99,7 @@ const AppNav = () => {
 
       <ul
         className={`flex transform transition duration-500 absolute lg:static 
-         dark:bg-black bg-white lg:bg-transparent left-3 right-3 border lg:border-none border-light-gray p-8 lg:p-0 space-y-4 lg:space-y-0 flex-col lg:flex-row space-x-0 lg:space-x-14 rounded-xl z-10
+        dark:bg-black bg-white lg:bg-transparent left-3 right-3 border lg:border-none border-light-gray p-8 lg:p-2 space-y-4 lg:space-y-0 flex-col lg:flex-row space-x-0 lg:space-x-14 rounded-xl z-10
         ${
           isActiveToggler
             ? 'translate-y-[250px]'
@@ -125,17 +125,16 @@ const AppNav = () => {
           </a>
         </li> */}
         <li key="modeIcon" className="dark:text-yellow text-sm text-center transition block py-3 lg:py-0 rounded-lg lg:bg-transparent tracking-widest">
-            {/* <Toggle /> */}
-           { console.log('toggle ',theme)}
+           
             { (theme === 'dark') ? (
                 <FaSun
                     onClick={() => setTheme('light')}
-                    className="  dark:text-yellow text-gray-500 dark:text-gray-400 text-2xl cursor-pointer"
+                    className="dark:text-yellow text-gray-500 dark:text-gray-400 text-2xl cursor-pointer"
                 />
             ) : (
                     <FaSun
                         onClick={() => setTheme('dark')}
-                        className="text-gray-500 dark:text-gray-400 text-2xl cursor-pointer"
+                        className="dark:text-yellow text-gray-500 dark:text-gray-400 text-2xl cursor-pointer"
                     />
                 )
             }

@@ -18,7 +18,7 @@ const AppSide = () => (
                   aria-label={item.name}
                 >
                   <i
-                    className={`${item.icon} text-2xl transition duration-300 text-gray hover:text-orange transform hover:-translate-y-1`}
+                    className={`${item.icon} text-2xl transition duration-300 dark:text-white dark:hover:text-orange text-gray hover:text-orange transform hover:-translate-y-1`}
                   />
                 </a>
               </li>
@@ -34,7 +34,7 @@ const AppSide = () => (
             <a
               key={item.id}
               href={`mailto:${item.username}`}
-              className="text-gray transition duration-300 hover:text-orange tracking-widest"
+              className="dark:text-white text-gray transition duration-300 dark:hover:text-orange hover:text-orange tracking-widest"
               style={{ writingMode: 'tb-rl' }}
             >
               {item.username}

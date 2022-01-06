@@ -19,7 +19,7 @@ const Contact = () => (
           title={USER.contact.title}
           description={USER.contact.description}
         />
-        <AppSection title="Connect With Me">
+        <AppSection title="Réseaux Sociaux">
           <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-4">
             {USER.contact.contents.map((item) => (
               <a
@@ -29,11 +29,11 @@ const Contact = () => (
                 rel="noopener noreferrer"
                 className="flex flex-col items-center border border-light-gray rounded-lg py-6 px-4 transition duration-300 hover:shadow-lg"
               >
-                <div className="w-12 h-12 rounded-full border border-orange grid place-items-center">
+                <div className="w-12 h-12 rounded-full border border-orange grid place-items-center hover:text-orange">
                   <i className={`${item.icon} text-xl`} />
                 </div>
-                <h3 className="dark:text-white text-black font-semibold mt-3">{item.name}</h3>
-                <p className="text-gray text-xs md:text-sm">{item.username}</p>
+                <h3 className="dark:text-white text-black font-semibold mt-3 hover:text-orange">{item.name}</h3>
+                <p className="text-gray text-xs md:text-sm hover:text-orange">{item.username}</p>
               </a>
             ))}
           </div>

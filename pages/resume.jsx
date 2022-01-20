@@ -23,7 +23,13 @@ const Resume = () => (
         <AppSection key={item.id} title={item.title} className="py-0">
           {item.contents.map((subItem) => (
             <AppTimeline key={subItem.id} item={subItem}>
-              {subItem.description}
+              <a
+              target="_blank"
+              rel="noopener noreferrer"
+              className="dark:text-white text-black  font-medium"
+              >
+                {subItem.description}
+              </a>
               {subItem.list ? (
                 <ul className="mt-4">
                   {subItem.list.map((listItem) => (
@@ -32,7 +38,7 @@ const Resume = () => (
                         href={listItem.url}
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="text-black hover:text-orange"
+                        className="dark:text-white text-gray hover:text-orange"
                         title={listItem.level}
                       >
                         {listItem.name}

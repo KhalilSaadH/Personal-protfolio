@@ -319,7 +319,7 @@
   },
   "resume": {
     "title": "Curriculum Vitae",
-    "description": "Explorez mes expériences, mes connaissances professionnelle et mon parcours académique",
+    "description": "Explorez mes expériences, mes connaissances professionnelles et mon parcours académique",
     "contents": [
       {
         "id": 1,
@@ -327,10 +327,92 @@
         "contents": [
           {
             "id": 1,
-            "timestamp": "Present",
-            "name": "Develop personal projects",
-            "info": "Learning Progress",
-            "description": "Learn and gain skills through formal schools, online courses, and work on personal projects to hone skills",
+            "timestamp": "Février 2021 jusqu’à présent",
+            "name": "Ingénieur d’études et développement partenaire au projet GDP chez FORCOS",
+            "info": "o Windev AGL, HFSQL Client / Serveur",
+            "description": "Développement de l’application GDP de gestion des déplacements pour le compte de l’AUA (AGENCE URBAINE D’AGAIR).",
+            "url": "#",
+            "list": [
+              {
+                "id": 1,
+                "name": "Analyse des besoins et exigences du client."
+              },
+              {
+                "id": 2,
+                "name": "Conception de la base de données et développement de la partie back-end et front-end de l’application."
+              },
+              {
+                "id": 3,
+                "name": "Elaboration et Implémentation d’un Algorithme de recherche opérationnelle et de prise de décisions."
+              },
+              {
+                "id": 4,
+                "name": "Installation et déploiement sur le serveur interne de l’AUA."
+              },
+              {
+                "id": 5,
+                "name": "Formation des utilisateurs de l’application."
+              }
+
+            ]
+          },
+          {
+            "id": 2,
+            "timestamp": "Février-Juillet 2020 ",
+            "name": "Projet de fin d’études chez FORCOS",
+            "info": "o Angular, Springboot, PHP, HTML, Bootstrap, JavaScript, REST, MySQL",
+            "description": "Conception et Réalisation d’une application de gestion de la paie adaptée aux réglementations de la DGI (Direction Générale des Impôts).",
+            "url": "#",
+            "list": [
+              {
+                "id": 1,
+                "name": "Résolution de la problématique de l’IR (l’impôt sur le revenu) au niveau de la paie hebdomadaire et bimensuelle dans le secteur agricole."
+              }
+            ]  
+          },
+          {
+            "id": 3,
+            "timestamp": "Aout-Octobre 2019 ",
+            "name": "Stage assistant d’ingénieur chez Duroc S.A",
+            "info": "o Xamarin Cross-Platform, C#, XAML, SQLServer, SQLite",
+            "description": "Développement d’une application mobile hybride de traçabilité des ouvriers qui permette aux superviseurs le pilotage et le suivi du rendement des différentes tâches effectuées.",
+            "url": "#"
+          },
+          {
+            "id": 4,
+            "timestamp": "2016-2018 ",
+            "name": "Freelanceur développeur Web",
+            "info": "o PHP, WORDPRESS, HTML, CSS, JavaScript, MySQL",
+            "url": "#",
+            "list": [
+              {
+                "id": 1,
+                "name": "Développement et administration des sites web."
+              },
+              {
+                "id": 2,
+                "name": "Correction des bugs et erreurs."
+              },
+              {
+                "id": 3,
+                "name": "Formation des utilisateurs."
+              }
+            ]  
+          },
+          {
+            "id": 5,
+            "timestamp": "Mai-Juin 2015 ",
+            "name": "Stage de fin d’études chez Univers High-Tech",
+            "info": "o Java, XML, PHP, JSON, Youtube Android player API, MySQL",
+            "description": "Développement d’une application Android « Portail vert » d’actualité dans le domaine d’agriculture.",
+            "url": "#"
+          },
+          {
+            "id": 6,
+            "timestamp": "Avril-Mai 2014 ",
+            "name": "Stage de fin d’études chez Isimedia Ingénierie",
+            "info": "o Asp.Net, C#, HTML, CSS, JavaScript, MySQL",
+            "description": "Conception et réalisation d’un site web éducatif  pour la promotion des sciences et de la technologie pour le compte du GROUPE SCOLAIRE ALHANNAE.",
             "url": "#"
           }
         ]
@@ -341,7 +423,7 @@
         "contents": [
           {
             "id": 5,
-            "timestamp": "1 Oct 2021 - 14 Dec 2021",
+            
             "name": "Insentif Program Referral AWS",
             "info": "Dicoding Academy",
             "description": "AWS Referral Program Incentives 90 days of learning opportunities at Dicoding, and complete the following classes:",

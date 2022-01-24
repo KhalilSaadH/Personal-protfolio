@@ -21,7 +21,7 @@ const AppHero = () => (
           <p className="text-xs lg:text-base text-gray max-w-xl tracking-widest mt-2 lg:mt-4 md:ml-1">
             {DATA.description}
           </p>
-          <AppButton title="A propos" href="/contact" />
+          <AppButton title="Mon CV" href="/resume" />
         </div>
       </Fade>
     </AppContainer>

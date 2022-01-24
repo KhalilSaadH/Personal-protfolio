@@ -87,7 +87,7 @@ const AppNav = () => {
           <a className="flex items-center">
             <Image
               src="/edwintantawi.svg"
-              alt="Edwin Tantawi"
+              alt="Khalil Saad HAROURI"
               width={40}
               height={40}
             />
@@ -99,7 +99,7 @@ const AppNav = () => {
 
       <ul
         className={`flex transform transition duration-500 absolute lg:static 
-        dark:bg-black bg-white lg:bg-transparent left-3 right-3 border lg:border-none border-light-gray p-8 lg:p-2 space-y-4 lg:space-y-0 flex-col lg:flex-row space-x-0 lg:space-x-14 rounded-xl z-10
+        dark:bg-black bg-white  left-3 right-3 border lg:border-none border-light-gray p-8 lg:p-2 space-y-4 lg:space-y-0 flex-col lg:flex-row space-x-0 lg:space-x-14 rounded-xl z-10
         ${
           isActiveToggler
             ? 'translate-y-[250px]'

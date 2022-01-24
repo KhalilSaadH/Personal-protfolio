@@ -37,12 +37,6 @@
   "services": [
     {
       "id": 1,
-      "name": "Ui Ux design",
-      "description": "Develop a good user interface and user experience, with a beautiful and comfortable appearance",
-      "icon": "/services/service-uiux.svg"
-    },
-    {
-      "id": 2,
       "name": "Website dev",
       "description": "Developing a website appearance based on design into a website that can be use. With good performance",
       "icon": "/services/service-website.svg"
@@ -223,55 +217,55 @@
   },
   "contact": {
     "title": "Contact",
-    "description": "N'hésitez pas à me contacter sur l'un des moyens de communication suivants",
+    "description": "N'hésitez pas à me contacter sur l'un mes réseaux sociaux",
     "contents": [
       {
         "id": 1,
         "icon": "fab fa-whatsapp",
         "name": "WhatsApp",
-        "username": "+62 823 8838 6923",
+        "username": "+212 699 15 32 28",
         "category": "Social Media",
-        "url": "https://wa.me/+6282388386923"
+        "url": "https://wa.me/+212699153228"
       },
       {
         "id": 2,
         "icon": "fab fa-instagram",
         "name": "Instagram",
-        "username": "@wintantawi",
+        "username": "@KhalilSaadH",
         "category": "Social Media",
-        "url": "https://instagram.com/wintantawi"
+        "url": "https://instagram.com/KhalilSaadH"
       },
       {
         "id": 3,
         "icon": "fab fa-twitter",
         "name": "Twitter",
-        "username": "@wintantawi",
+        "username": "@KhalilSaadH",
         "category": "Social Media",
-        "url": "https://twitter.com/wintantawi"
+        "url": "https://twitter.com/KhalilSaadH"
       },
       {
         "id": 4,
         "icon": "fab fa-facebook-f",
         "name": "Facebook",
-        "username": "Edwin Tantawi",
+        "username": "Khalil Saad HAROURI",
         "category": "Social Media",
-        "url": "https://facebook.com/edwintantawi.5"
+        "url": "https://facebook.com/saadharouri"
       },
       {
         "id": 5,
         "icon": "fab fa-linkedin-in",
         "name": "Linkedin",
-        "username": "Edwin Tantawi",
+        "username": "Khalil Saad HAROURI",
         "category": "Social Media",
-        "url": "https://www.linkedin.com/in/edwin-tantawi-909138193"
+        "url": "https://www.linkedin.com/in/khalil-saad-harouri"
       },
       {
         "id": 6,
         "icon": "fab fa-github",
         "name": "Github",
-        "username": "edwintantawi",
+        "username": "KhalilSaadH",
         "category": "Social Media",
-        "url": "https://github.com/edwintantawi"
+        "url": "https://github.com/KhalilSaadH"
       },
       {
         "id": 7,
@@ -285,7 +279,7 @@
         "id": 8,
         "icon": "far fa-compass",
         "name": "Location",
-        "username": "Medan, Indonesia",
+        "username": "Casablanca, Maroc",
         "category": "location",
         "url": "https://www.google.com/maps/place/Medan,+Medan+City,+North+Sumatra/@3.6422838,98.5994534,12z/data=!3m1!4b1!4m5!3m4!1s0x303131cc1c3eb2fd:0x23d431c8a6908262!8m2!3d3.5951956!4d98.6722227"
       }
@@ -422,112 +416,86 @@
         "title": "Projets d'autoformation",
         "contents": [
           {
-            "id": 5,
-            
-            "name": "Insentif Program Referral AWS",
-            "info": "Dicoding Academy",
-            "description": "AWS Referral Program Incentives 90 days of learning opportunities at Dicoding, and complete the following classes:",
-            "url": "https://aws.dicoding.com/",
+            "id": 1,
+            "name": "ReactJs",
+            "info": "o ReactJs, JavaScript, JSX, Redux, NodeJS, HTML, CSS , Styled Components, Google Authanticator, Firestore, Stripe",
+            "description": "Boutique en ligne d’e-commerce Full Stack.",
+            "url": "https://react-ecom-shop.herokuapp.com",
             "list": [
               {
                 "id": 1,
-                "name": "Belajar Fundamental Aplikasi Back-End",
-                "level": "Intermediate",
-                "url": "https://www.dicoding.com/certificates/72ZDEJ0LVPYW"
-              },
-              {
-                "id": 2,
-                "name": "Menjadi Back-End Developer Expert",
-                "level": "Expert",
-                "url": "https://www.dicoding.com/certificates/JLX13RRQGP72"
-              }
-            ]
-          },
-          {
-            "id": 4,
-            "timestamp": "11 May 2021 - 4 Aug 2021",
-            "name": "IDCamp 2021",
-            "info": "Back-end Learning Path",
-            "description": "Scholarship to study programming at Dicoding Academy from Indosat Ooredoo, and complete the following classes:",
-            "url": "https://idcamp.indosatooredoo.com/",
-            "list": [
-              {
-                "id": 1,
-                "name": "Belajar Dasar Pemrograman JavaScript",
-                "level": "Beginner",
-                "url": "https://www.dicoding.com/certificates/RVZK4QLMMPD5"
-              },
-              {
-                "id": 2,
-                "name": "Belajar Membuat Aplikasi Back-End untuk Pemula",
-                "level": "Beginner",
-                "url": "https://www.dicoding.com/certificates/MEPJ504OLP3V"
-              }
-            ]
-          },
-          {
-            "id": 3,
-            "timestamp": "28 Apr 2021 - 10 May 2021",
-            "name": "Baparekraf Developer Day 2021",
-            "info": "Front-End Learning Path",
-            "description": "Scholarship to study programming at Dicoding Academy from Kemenparekraf Indonesia, and complete the following classes:",
-            "url": "https://bdd.kemenparekraf.go.id/",
-            "list": [
-              {
-                "id": 1,
-                "name": "Menjadi Front-End Web Developer Expert",
-                "level": "Expert",
-                "url": "https://www.dicoding.com/certificates/81P21DGOJZOY"
+                "name": "Lien: https://react-ecom-shop.herokuapp.com",
+                "url": "https://react-ecom-shop.herokuapp.com"
               }
             ]
           },
           {
             "id": 2,
-            "timestamp": " 15 Mar 2021 - 01 Jul 2021",
-            "name": "Cloud and Back-End Developer Scholarship Program",
-            "info": "Cloud Computing AWS",
-            "description": "Scholarship to study Cloud and Backend at Dicoding Academy from AWS, and complete the following classes:",
-            "url": "https://aws.dicoding.com/",
+            "name": "NextJs",
+            "info": "o NextJs, Speechly API, Material UI, TypeScript, JSX, Context API, NodeJS, HTML, CSS",
+            "description": "Gestion du budget personnel avec reconnaissance vocale en temps réel qui utilise l’apprentissage automatique (Machine Learning).",
+            "url": "https://mybudget-tracker.vercel.app",
             "list": [
               {
                 "id": 1,
-                "name": "Cloud Practitioner Essentials (Belajar Dasar AWS Cloud)",
-                "level": "Beginner",
-                "url": "https://www.dicoding.com/certificates/0LZ0DY5RRX65"
-              },
-              {
-                "id": 2,
-                "name": "Architecting on AWS (Membangun Arsitektur Cloud di AWS)",
-                "level": "Intermediate",
-                "url": "https://www.dicoding.com/certificates/N9ZODGK66PG5"
+                "name": "Lien: https://mybudget-tracker.vercel.app",
+                "url": "https://mybudget-tracker.vercel.app"
               }
             ]
           },
           {
-            "id": 1,
-            "timestamp": "20 Jul 2020 - 09 Aug 2020",
-            "name": "Baparekraf Developer Day 2020",
-            "info": "Front-end Learning Path",
-            "description": "Scholarship to study programming at Dicoding Academy from Kemenparekraf Indonesia, and complete the following classes:",
-            "url": "https://bdd.kemenparekraf.go.id/",
+            "id": 3,
+            "name": "Symfony Framework",
+            "info": "o Symfony, PHP, TWIG, Doctrine ORM, Symfony Authentication, MySQL, JavaScript,  HTML, CSS, Bootstrap ",
+            "description": "Blog d’articles divers Full Stack.",
+            "url": "https://symfony-blog-full-stack.herokuapp.com",
             "list": [
               {
                 "id": 1,
-                "name": "Belajar Dasar Pemrograman Web",
-                "level": "Beginner",
-                "url": "https://www.dicoding.com/certificates/1RXY46WJ9PVM"
-              },
+                "name": "Lien: https://symfony-blog-full-stack.herokuapp.com",
+                "url": "https://symfony-blog-full-stack.herokuapp.com"
+              }
+            ]
+          },
+          {
+            "id": 4,
+            "name": "JEE Spring boot",
+            "info": "o Spring boot, Java, maven, JDBC, MySQL",
+            "description": "Backend Spring boot REST API pour la gestion des employés.",
+            "url": "https://spring-boot-api-java.herokuapp.com/api/v1/employees",
+            "list": [
               {
-                "id": 2,
-                "name": "Belajar Fundamental Front-End Web Development",
-                "level": "Intermediate",
-                "url": "https://www.dicoding.com/certificates/JMZVM9OJ3ZN9"
-              },
+                "id": 1,
+                "name": "Lien: https://spring-boot-api-java.herokuapp.com/api/v1/employees",
+                "url": "https://spring-boot-api-java.herokuapp.com/api/v1/employees"
+              }
+            ]
+          },
+          {
+            "id": 5,
+            "name": "Angular",
+            "info": "o Angular, TypeScript, HTML, Bootstrap, MySQL",
+            "description": "Application frontend en Angular de gestion des employés qui utilise l’API Spring boot pour les opérations CRUD.",
+            "url": "https://khalilsaadh.github.io/Angular-FrontEnd-CRUD",
+            "list": [
               {
-                "id": 3,
-                "name": "Membangun Progressive Web Apps",
-                "level": "Expert",
-                "url": "https://www.dicoding.com/certificates/JMZVM9OJNZN9"
+                "id": 1,
+                "name": "Lien: https://khalilsaadh.github.io/Angular-FrontEnd-CRUD",
+                "url": "https://khalilsaadh.github.io/Angular-FrontEnd-CRUD"
+              }
+            ]
+          },
+          {
+            "id": 6,
+            "name": "ReactJs",
+            "info": "o ReactJs, JavaScript, JSX, HTML, Bootstrap, MySQL",
+            "description": "Application frontend en ReactJs de gestion des employés qui utilise l’API Spring boot pour les opérations CRUD.",
+            "url": "https://khalilsaadh.github.io/React-Frontend-CRUD",
+            "list": [
+              {
+                "id": 1,
+                "name": "Lien: https://khalilsaadh.github.io/React-Frontend-CRUD",
+                "url": "https://khalilsaadh.github.io/React-Frontend-CRUD"
               }
             ]
           }
@@ -539,35 +507,35 @@
         "contents": [
           {
             "id": 1,
-            "timestamp": "2020 - Present",
-            "name": "Mikroskil University",
-            "info": "College",
-            "description": "Studying at Mikroskil University, Indonesia by majoring in Informatics Engineering",
-            "url": "https://mikroskil.ac.id/"
+            "timestamp": "2018 - 2020",
+            "name": "École Polytechnique",
+            "info": "Université Internationnale d'Agadir",
+            "description": "Diplôme d’ingénieur d’état en Génie Informatique option Génie Logiciel."
+            
           },
           {
             "id": 2,
-            "timestamp": "2017 - 2020",
-            "name": "SMK Methodist Tamora",
-            "info": "Vocational High School",
-            "description": "Demanding knowledge at the Methodist Junior high school Vocational School, Indonesia. By majoring in Computer Network Engineering",
-            "url": "https://web.facebook.com/methodist.tamora?_rdc=1&_rdr"
+            "timestamp": "2014 - 2015",
+            "name": "École Supérieure de Technologie",
+            "info": "Université Mohammed V de Rabat",
+            "description": "Licence professionnelle en Ingénierie des Applications Mobiles."
+            
           },
           {
             "id": 3,
-            "timestamp": "2014 - 2017",
-            "name": "SMP Mehodist Tamora",
-            "info": "Junior high school",
-            "description": "Demanding knowledge at the Methodist Tamora Junior high school, Indonesia.",
-            "url": "https://web.facebook.com/methodist.tamora?_rdc=1&_rdr"
+            "timestamp": "2012 - 2014",
+            "name": "École Supérieure de Technologie",
+            "info": "Université Ibn Zohr d'Agadir ",
+            "description": "Diplôme Universitaire de Technologie en Génie Informatique."
+            
           },
           {
             "id": 4,
-            "timestamp": "2008 - 2014",
-            "name": "SD Mehodist Tamora",
-            "info": "Elementary school",
-            "description": "Demanding knowledge at the Methodist Tamora Elementary school, Indonesia.",
-            "url": "https://web.facebook.com/methodist.tamora?_rdc=1&_rdr"
+            "timestamp": "2018 - 2020",
+            "name": "Lycée Technique Al Idrissi",
+            "info": "Agadir",
+            "description": "Baccalauréat en sciences mathématiques B."
+            
           }
         ]
       }

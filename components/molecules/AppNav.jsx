@@ -86,7 +86,7 @@ const AppNav = () => {
         <Link href="/" passHref>
           <a className="flex items-center">
             <Image
-              src="/edwintantawi.svg"
+              src="/saad.svg"
               alt="Khalil Saad HAROURI"
               width={40}
               height={40}
